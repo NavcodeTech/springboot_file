@@ -1,0 +1,25 @@
+spring:
+  profiles:  prod
+  server:
+    port:  4040
+  employee-service:
+    id:  12321
+    name:  Naveen
+
+---   
+spring:
+  profiles:  qa
+  server:
+    port:  6060
+  employee-service:
+    id:  2343
+    name:  Sunny
+
+---   
+Spring: 
+  profiles:  dev
+  server:
+    port:  5050
+  employee-service:
+    id:  5464
+  
